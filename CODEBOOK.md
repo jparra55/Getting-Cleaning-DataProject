@@ -11,6 +11,7 @@ As you can see, I have only submitted one script, in that file you'll find all t
 7. Finally, I used the reshape2 package, in order to accomplish the last requeriment of the script, using the melt function to create a new variable with all the names of the variables and their respective value. After that, I used the dcast function to create a new dataset with the average of all the diferent variables that I got in the previous step, grouped by subject and the activity. This dataset was saved using the write.table function, with the parameters described in the submission tab.
 
 ## Variable names
+
 ### The next is a brief description of the names used in my submission. (As I said, I used the names given by the file features, for that reason I'll put in here the same description which was given in the UCI HAR Dataset directory in the features_info file).
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
